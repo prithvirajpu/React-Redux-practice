@@ -1,6 +1,5 @@
 const initial={
-    cake:20,
-
+    cake:20
 }
 export default function Cake_reducer(prev=initial,action){
     switch (action.type){

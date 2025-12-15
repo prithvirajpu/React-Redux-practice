@@ -2,7 +2,7 @@ import {useSelector,useDispatch} from 'react-redux'
 
 const Cake = () => {
     const cake_number=useSelector((prev)=>{
-        return prev.cake
+        return prev.cake.cake
     })
     const dispatch=useDispatch()
     function handle_buycake(){
